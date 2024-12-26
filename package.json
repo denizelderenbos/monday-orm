@@ -1,0 +1,37 @@
+{
+  "name": "monday-orm",
+  "version": "0.0.1",
+  "description": "An ORM for monday.com",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "generate:types": "graphql-codegen"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denizelderenbos/monday-orm.git"
+  },
+  "keywords": [
+    "monday.com",
+    "orm",
+    "typescript"
+  ],
+  "author": "Deniz Elderenbos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denizelderenbos/monday-orm/issues"
+  },
+  "homepage": "https://github.com/denizelderenbos/monday-orm#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.3",
+    "@graphql-codegen/near-operation-file-preset": "^3.0.0",
+    "@graphql-codegen/typescript": "^4.1.2",
+    "@graphql-codegen/typescript-operations": "^4.4.0",
+    "graphql": "^16.10.0"
+  }
+}
